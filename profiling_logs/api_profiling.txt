@@ -1,0 +1,64 @@
+
+PATH: '/repos'
+         209972 function calls (209228 primitive calls) in 1.777 seconds
+
+   Ordered by: internal time, call count
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+       17    0.737    0.043    0.737    0.043 {built-in method _openssl.SSL_read}
+        1    0.548    0.548    0.548    0.548 {built-in method _openssl.SSL_do_handshake}
+        1    0.301    0.301    0.301    0.301 {method 'connect' of '_socket.socket' objects}
+     1347    0.015    0.000    0.075    0.000 C:\Users\NITIN\Anaconda3\lib\html\parser.py:301(parse_starttag)
+    10999    0.014    0.000    0.014    0.000 {method 'match' of '_sre.SRE_Pattern' objects}
+        1    0.012    0.012    0.012    0.012 {built-in method _openssl.SSL_CTX_load_verify_locations}
+        1    0.010    0.010    0.118    0.118 C:\Users\NITIN\Anaconda3\lib\html\parser.py:134(goahead)
+     2669    0.006    0.000    0.019    0.000 C:\Users\NITIN\Anaconda3\lib\site-packages\bs4\__init__.py:337(endData)
+     5368    0.006    0.000    0.006    0.000 C:\Users\NITIN\Anaconda3\lib\site-packages\bs4\element.py:203(setup)
+     1348    0.006    0.000    0.016    0.000 C:\Users\NITIN\Anaconda3\lib\site-packages\bs4\element.py:813(__init__)
+    35204    0.006    0.000    0.012    0.000 {built-in method builtins.isinstance}
+2318/1670    0.005    0.000    0.011    0.000 C:\Users\NITIN\Anaconda3\lib\site-packages\bs4\element.py:1715(_matches)
+     1283    0.004    0.000    0.007    0.000 C:\Users\NITIN\Anaconda3\lib\site-packages\bs4\builder\__init__.py:152(_replace_cdata_list_attribute_values)
+     5011    0.004    0.000    0.007    0.000 C:\Users\NITIN\Anaconda3\lib\_markupbase.py:48(updatepos)
+        1    0.004    0.004    0.004    0.004 {built-in method _socket.getaddrinfo}
+     1140    0.004    0.000    0.019    0.000 C:\Users\NITIN\Anaconda3\lib\html\parser.py:386(parse_endtag)
+     1347    0.003    0.000    0.039    0.000 C:\Users\NITIN\Anaconda3\lib\site-packages\bs4\builder\_htmlparser.py:79(handle_starttag)
+     1347    0.003    0.000    0.034    0.000 C:\Users\NITIN\Anaconda3\lib\site-packages\bs4\__init__.py:447(handle_starttag)
+     2010    0.003    0.000    0.007    0.000 C:\Users\NITIN\Anaconda3\lib\site-packages\bs4\__init__.py:367(object_was_parsed)
+        1    0.003    0.003    0.004    0.004 C:\Users\NITIN\Anaconda3\lib\site-packages\urllib3\connectionpool.py:410(close)
+     1307    0.003    0.000    0.005    0.000 C:\Users\NITIN\Anaconda3\lib\site-packages\bs4\__init__.py:424(_popToTag)
+     3637    0.003    0.000    0.022    0.000 C:\Users\NITIN\Anaconda3\lib\site-packages\bs4\element.py:1689(search)
+     3657    0.003    0.000    0.006    0.000 C:\Users\NITIN\Anaconda3\lib\abc.py:180(__instancecheck__)
+     3714    0.003    0.000    0.003    0.000 {method 'search' of '_sre.SRE_Pattern' objects}
+     5908    0.003    0.000    0.003    0.000 {method 'group' of '_sre.SRE_Match' objects}
+     1459    0.002    0.000    0.017    0.000 C:\Users\NITIN\Anaconda3\lib\site-packages\bs4\element.py:1648(search_tag)
+     2010    0.002    0.000    0.006    0.000 C:\Users\NITIN\Anaconda3\lib\site-packages\bs4\element.py:704(__new__)
+     1348    0.002    0.000    0.003    0.000 C:\Users\NITIN\Anaconda3\lib\site-packages\bs4\__init__.py:328(pushTag)
+     7343    0.002    0.000    0.002    0.000 C:\Users\NITIN\Anaconda3\lib\_weakrefset.py:70(__contains__)
+     4511    0.002    0.000    0.002    0.000 {method 'count' of 'str' objects}
+     8044    0.002    0.000    0.002    0.000 {built-in method builtins.hasattr}
+       30    0.002    0.000    0.026    0.001 C:\Users\NITIN\Anaconda3\lib\site-packages\bs4\element.py:518(_find_all)
+       11    0.002    0.000    0.002    0.000 {built-in method nt.stat}
+     1347    0.002    0.000    0.008    0.000 C:\Users\NITIN\Anaconda3\lib\html\parser.py:352(check_for_whole_start_tag)
+      740    0.002    0.000    0.002    0.000 {method 'split' of '_sre.SRE_Pattern' objects}
+     1325    0.002    0.000    0.015    0.000 C:\Users\NITIN\Anaconda3\lib\site-packages\bs4\builder\_htmlparser.py:107(handle_endtag)
+        2    0.002    0.001    0.002    0.001 {method 'decompress' of 'zlib.Decompress' objects}
+    10557    0.002    0.000    0.002    0.000 {method 'append' of 'list' objects}
+     8780    0.001    0.000    0.001    0.000 {method 'lower' of 'str' objects}
+     1307    0.001    0.000    0.013    0.000 C:\Users\NITIN\Anaconda3\lib\site-packages\bs4\__init__.py:474(handle_endtag)
+     1347    0.001    0.000    0.001    0.000 C:\Users\NITIN\Anaconda3\lib\site-packages\bs4\__init__.py:319(popTag)
+     2010    0.001    0.000    0.002    0.000 C:\Users\NITIN\Anaconda3\lib\site-packages\bs4\builder\_htmlparser.py:118(handle_data)
+     3920    0.001    0.000    0.001    0.000 {method 'startswith' of 'str' objects}
+     2063    0.001    0.000    0.001    0.000 {built-in method __new__ of type object at 0x000000005BCFC3F0}
+     7135    0.001    0.000    0.001    0.000 {method 'end' of '_sre.SRE_Match' objects}
+     8321    0.001    0.000    0.001    0.000 C:\Users\NITIN\Anaconda3\lib\site-packages\bs4\element.py:1024(__bool__)
+     2017    0.001    0.000    0.001    0.000 C:\Users\NITIN\Anaconda3\lib\site-packages\bs4\__init__.py:479(handle_data)
+     3211    0.001    0.000    0.001    0.000 C:\Users\NITIN\Anaconda3\lib\html\__init__.py:122(unescape)
+     1347    0.001    0.000    0.001    0.000 C:\Users\NITIN\Anaconda3\lib\site-packages\bs4\element.py:880(is_empty_element)
+     3645    0.001    0.000    0.002    0.000 {built-in method builtins.next}
+     3104    0.001    0.000    0.001    0.000 {method 'get' of 'dict' objects}
+     3797    0.001    0.000    0.001    0.000 C:\Users\NITIN\Anaconda3\lib\site-packages\bs4\element.py:1323(descendants)
+     1872    0.001    0.000    0.001    0.000 {method 'rindex' of 'str' objects}
+        1    0.001    0.001    0.001    0.001 C:\Users\NITIN\Anaconda3\lib\site-packages\bs4\dammit.py:438(_to_unicode)
+     2256    0.001    0.000    0.001    0.000 C:\Users\NITIN\Anaconda3\lib\site-packages\bs4\element.py:1612(_normalize_search_value)
+     1348    0.001    0.000    0.001    0.000 C:\Users\NITIN\Anaconda3\lib\site-packages\bs4\builder\__init__.py:108(can_be_empty_element)
+     1348    0.001    0.000    0.001    0.000 C:\Users\NITIN\Anaconda3\lib\site-packages\bs4\builder\__init__.py:267(set_up_substitutions)

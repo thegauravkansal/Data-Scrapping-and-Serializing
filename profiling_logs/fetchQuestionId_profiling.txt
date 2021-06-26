@@ -1,0 +1,91 @@
+Question Id: 6eff13eb157048fa85a7b189b2d4e3c1
+Response Time: 0:00:00.456618
+         162490 function calls (157819 primitive calls) in 0.759 seconds
+
+   Ordered by: internal time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.383    0.383    0.383    0.383 {built-in method _openssl.SSL_read}
+     1235    0.069    0.000    0.069    0.000 {built-in method nt.stat}
+        1    0.026    0.026    0.026    0.026 {built-in method _openssl.SSL_do_handshake}
+    13/12    0.023    0.002    0.026    0.002 {built-in method _imp.create_dynamic}
+      251    0.023    0.000    0.023    0.000 {built-in method marshal.loads}
+        1    0.018    0.018    0.018    0.018 {method 'connect' of '_socket.socket' objects}
+      251    0.017    0.000    0.026    0.000 <frozen importlib._bootstrap_external>:830(get_data)
+      917    0.015    0.000    0.028    0.000 {built-in method builtins.__build_class__}
+    279/1    0.010    0.000    0.760    0.760 {built-in method builtins.exec}
+      251    0.009    0.000    0.009    0.000 {method 'read' of '_io.FileIO' objects}
+        1    0.009    0.009    0.009    0.009 {built-in method _openssl.SSL_CTX_load_verify_locations}
+        1    0.005    0.005    0.005    0.005 {built-in method _socket.getaddrinfo}
+      510    0.005    0.000    0.067    0.000 <frozen importlib._bootstrap_external>:1233(find_spec)
+     6547    0.004    0.000    0.005    0.000 {built-in method builtins.getattr}
+   240/75    0.004    0.000    0.011    0.000 sre_parse.py:470(_parse)
+       29    0.003    0.000    0.003    0.000 {built-in method nt.listdir}
+   456/68    0.003    0.000    0.011    0.000 sre_compile.py:64(_compile)
+      338    0.002    0.000    0.005    0.000 inspect.py:2095(_signature_from_function)
+      251    0.002    0.000    0.003    0.000 <frozen importlib._bootstrap_external>:430(_validate_bytecode_header)
+     1582    0.002    0.000    0.006    0.000 enum.py:801(__and__)
+    287/4    0.002    0.000    0.305    0.076 <frozen importlib._bootstrap>:966(_find_and_load)
+      393    0.002    0.000    0.002    0.000 {built-in method __new__ of type object at 0x000000005BCFC3F0}
+       29    0.002    0.000    0.004    0.000 <frozen importlib._bootstrap_external>:1067(_path_hooks)
+3834/3409    0.002    0.000    0.030    0.000 {built-in method builtins.hasattr}
+     3520    0.002    0.000    0.003    0.000 enum.py:515(__new__)
+     2538    0.002    0.000    0.005    0.000 <frozen importlib._bootstrap_external>:57(_path_join)
+      251    0.002    0.000    0.071    0.000 <frozen importlib._bootstrap_external>:743(get_code)
+  285/257    0.002    0.000    0.096    0.000 <frozen importlib._bootstrap>:870(_find_spec)
+10131/10130    0.002    0.000    0.003    0.000 {built-in method builtins.isinstance}
+  743/358    0.002    0.000    0.002    0.000 sre_parse.py:173(getwidth)
+      502    0.002    0.000    0.005    0.000 <frozen importlib._bootstrap_external>:263(cache_from_source)
+     2538    0.002    0.000    0.003    0.000 <frozen importlib._bootstrap_external>:59(<listcomp>)
+     3532    0.002    0.000    0.007    0.000 enum.py:265(__call__)
+     4389    0.002    0.000    0.002    0.000 sre_parse.py:232(__next)
+       26    0.002    0.000    0.004    0.000 enum.py:124(__new__)
+      278    0.001    0.000    0.007    0.000 <frozen importlib._bootstrap>:504(_init_module_attrs)
+      338    0.001    0.000    0.008    0.000 inspect.py:2176(_signature_from_callable)
+      221    0.001    0.000    0.002    0.000 sre_compile.py:250(_optimize_charset)
+      271    0.001    0.000    0.073    0.000 <frozen importlib._bootstrap_external>:1117(_get_spec)
+    283/4    0.001    0.000    0.303    0.076 <frozen importlib._bootstrap>:651(_load_unlocked)
+      315    0.001    0.000    0.003    0.000 <frozen importlib._bootstrap>:157(_get_module_lock)
+        2    0.001    0.001    0.001    0.001 {built-in method _openssl.SSL_load_error_strings}
+     3014    0.001    0.000    0.002    0.000 {built-in method builtins.setattr}
+  192/160    0.001    0.000    0.003    0.000 abc.py:196(__subclasscheck__)
+        1    0.001    0.001    0.002    0.002 connectionpool.py:410(close)
+      338    0.001    0.000    0.002    0.000 inspect.py:2812(_hash_basis)
+      502    0.001    0.000    0.002    0.000 <frozen importlib._bootstrap_external>:63(_path_split)
+      338    0.001    0.000    0.002    0.000 inspect.py:2714(__init__)
+     3875    0.001    0.000    0.002    0.000 sre_parse.py:253(get)
+      576    0.001    0.000    0.001    0.000 {built-in method _thread.allocate_lock}
+    287/4    0.001    0.000    0.304    0.076 <frozen importlib._bootstrap>:936(_find_and_load_unlocked)
+     5592    0.001    0.000    0.001    0.000 {method 'rstrip' of 'str' objects}
+        2    0.001    0.000    0.001    0.000 socket.py:139(__init__)
+     3220    0.001    0.000    0.001    0.000 {method 'join' of 'str' objects}
+       87    0.001    0.000    0.004    0.000 abc.py:132(__new__)
+     2717    0.001    0.000    0.001    0.000 <frozen importlib._bootstrap>:222(_verbose_message)
+     8349    0.001    0.000    0.001    0.000 {method 'append' of 'list' objects}
+      264    0.001    0.000    0.001    0.000 <frozen importlib._bootstrap_external>:524(spec_from_file_location)
+     1815    0.001    0.000    0.001    0.000 sre_parse.py:163(__getitem__)
+      145    0.001    0.000    0.012    0.000 utils.py:88(verify_interface)
+    251/4    0.001    0.000    0.302    0.076 <frozen importlib._bootstrap_external>:672(exec_module)
+      708    0.001    0.000    0.001    0.000 inspect.py:2435(__init__)
+      315    0.001    0.000    0.001    0.000 <frozen importlib._bootstrap>:78(acquire)
+        1    0.001    0.001    0.004    0.004 binding.py:80(build_conditional_library)
+      315    0.001    0.000    0.001    0.000 <frozen importlib._bootstrap>:103(release)
+      591    0.001    0.000    0.001    0.000 {method 'format' of 'str' objects}
+6268/6049    0.001    0.000    0.001    0.000 {built-in method builtins.len}
+      508    0.001    0.000    0.001    0.000 {method 'rsplit' of 'str' objects}
+        2    0.001    0.000    0.001    0.000 {built-in method builtins.print}
+  877/387    0.001    0.000    0.188    0.000 <frozen importlib._bootstrap>:997(_handle_fromlist)
+      413    0.001    0.000    0.001    0.000 _weakrefset.py:36(__init__)
+      278    0.001    0.000    0.001    0.000 <frozen importlib._bootstrap>:318(__exit__)
+      251    0.001    0.000    0.024    0.000 <frozen importlib._bootstrap_external>:485(_compile_bytecode)
+       25    0.001    0.000    0.013    0.001 __init__.py:357(namedtuple)
+     1116    0.001    0.000    0.066    0.000 <frozen importlib._bootstrap_external>:75(_path_stat)
+   199/68    0.001    0.000    0.011    0.000 sre_parse.py:407(_parse_sub)
+  278/276    0.001    0.000    0.035    0.000 <frozen importlib._bootstrap>:564(module_from_spec)
+       72    0.001    0.000    0.029    0.000 re.py:286(_compile)
+       14    0.001    0.000    0.001    0.000 {built-in method _imp.create_builtin}
+      294    0.001    0.000    0.001    0.000 enum.py:70(__setitem__)
+     1988    0.001    0.000    0.001    0.000 {method 'rpartition' of 'str' objects}
+      221    0.001    0.000    0.003    0.000 sre_compile.py:223(_compile_charset)
+      264    0.001    0.000    0.002    0.000 <frozen importlib._bootstrap_external>:1228(_get_spec)
+       93    0.001    0.000    0.001    0.000 oid.py:12(__init__)
